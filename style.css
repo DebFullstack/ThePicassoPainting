@@ -6,11 +6,6 @@ form {
 	width: 100%;
 }
 
-/*#box1 #box2 #box3 #circle1 #circle2 {
-	line-height: 20px;
-	text-align: center;
-}
-*/
 
 #circle2 {
 	line-height: 20px;
@@ -33,13 +28,13 @@ form {
 #box1{
 	margin: 2px 2px 2px 2px;
 	background-color: red;
-
+	
 }
 
 #box2{
 	margin: 2px 2px 2px 2px;
 	background-color: blue;
-
+	
 }
 
 #box3{
@@ -86,7 +81,10 @@ form {
 	border-left: 5rem solid transparent;
 	border-right: 5rem solid transparent;
 	border-top: 3rem solid #f00;
-	text-align: justify top;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 #circle2 {
@@ -105,3 +103,10 @@ form {
 	margin-top: 3px;
 	border-style: outset;
 }
+
+	
+#box1, #box2, #box3, #circle1, #circle2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
